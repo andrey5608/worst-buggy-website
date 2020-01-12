@@ -6,9 +6,11 @@ class CreditCalculator extends React.Component {
     render() {
       return (
         <React.Fragment>
-        <h1>Calculate your payment with our site</h1>
-        <div>Title</div>
-        <CalculatorSlider title="asd" />
+        <h1>Calculate your loan payment</h1>
+        <div>Select credit period</div>
+        <CalculatorSlider dataid="totalMonthsInput" rangeMin="0" rangeMax="60" label="months" initialValue="24"/>
+        <div>Select total loan amount</div>
+        <CalculatorSlider dataid="totalLoanInput" rangeMin="0" rangeMax="21001" label="$" initialValue="500"/>
         <Button variant="contained" color="primary">
             Calculate now
         </Button>

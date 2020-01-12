@@ -4,21 +4,22 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import Input from '@material-ui/core/Input';
+import './CalculatorSlider.css'
 
 const useStyles = makeStyles({
   root: {
-    width: 250,
+    width: 300,
   },
   input: {
     width: 42,
   },
 });
 
-const maxValue = 60;//TODO: пробрасывать значение
-
-export default function InputSlider() {
+export default function InputSlider(props) {
   const classes = useStyles();
-  const [value, setValue] = React.useState(24);
+  const [value, setValue] = React.useState(Number(props.initialValue));
+
+  const maxValue = props.rangeMax;
 
   const handleSliderChange = (event, newValue) => {
     if (newValue < 0) {
@@ -46,7 +47,7 @@ export default function InputSlider() {
     <div className={classes.root}>
       <Typography id="input-slider" gutterBottom>
       </Typography>
-      <Grid container spacing={2} alignItems="center">
+      <Grid container spacing={2} alignItems="flex-start">
         <Grid item>
         </Grid>
         <Grid item xs>
@@ -54,6 +55,8 @@ export default function InputSlider() {
             value={typeof value === 'number' ? value : 0}
             onChange={handleSliderChange}
             aria-labelledby="input-slider"
+            min={Number(props.rangeMin)}
+            max={Number(props.rangeMax)}
           />
         </Grid>
         <Grid item>
@@ -65,12 +68,13 @@ export default function InputSlider() {
             onBlur={handleBlur}
             inputProps={{
               step: 1,
-              min: 0,
-              max: maxValue,
+              min: props.rangeMin,
+              max: props.rangeMax,
               type: 'number',
               'aria-labelledby': 'input-slider',
             }}
-          />
+            id={props.dataid}
+          /> {props.label}
         </Grid>
       </Grid>
     </div>
