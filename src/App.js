@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import CreditCalculator from './CreditCalculator'
+import CreditCalculator from './CreditCalculator/CreditCalculator'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CreditCalculator title="awww" />
+        <CreditCalculator />
       </header>
     </div>
   );
