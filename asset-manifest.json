@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/worst-buggy-website/static/css/main.885f49bf.chunk.css",
+    "main.js": "/worst-buggy-website/static/js/main.a8401ec3.chunk.js",
+    "main.js.map": "/worst-buggy-website/static/js/main.a8401ec3.chunk.js.map",
+    "runtime-main.js": "/worst-buggy-website/static/js/runtime-main.25609d5f.js",
+    "runtime-main.js.map": "/worst-buggy-website/static/js/runtime-main.25609d5f.js.map",
+    "static/js/2.c5e43e66.chunk.js": "/worst-buggy-website/static/js/2.c5e43e66.chunk.js",
+    "static/js/2.c5e43e66.chunk.js.map": "/worst-buggy-website/static/js/2.c5e43e66.chunk.js.map",
+    "index.html": "/worst-buggy-website/index.html",
+    "precache-manifest.6696fca1da4fd9f537930ba0a1401a32.js": "/worst-buggy-website/precache-manifest.6696fca1da4fd9f537930ba0a1401a32.js",
+    "service-worker.js": "/worst-buggy-website/service-worker.js",
+    "static/css/main.885f49bf.chunk.css.map": "/worst-buggy-website/static/css/main.885f49bf.chunk.css.map",
+    "static/js/2.c5e43e66.chunk.js.LICENSE": "/worst-buggy-website/static/js/2.c5e43e66.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25609d5f.js",
+    "static/js/2.c5e43e66.chunk.js",
+    "static/css/main.885f49bf.chunk.css",
+    "static/js/main.a8401ec3.chunk.js"
+  ]
+}
