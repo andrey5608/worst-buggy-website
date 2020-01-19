@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/worst-buggy-website/static/css/main.0436f2da.chunk.css",
-    "main.js": "/worst-buggy-website/static/js/main.fc5a3476.chunk.js",
-    "main.js.map": "/worst-buggy-website/static/js/main.fc5a3476.chunk.js.map",
+    "main.js": "/worst-buggy-website/static/js/main.711db456.chunk.js",
+    "main.js.map": "/worst-buggy-website/static/js/main.711db456.chunk.js.map",
     "runtime-main.js": "/worst-buggy-website/static/js/runtime-main.25609d5f.js",
     "runtime-main.js.map": "/worst-buggy-website/static/js/runtime-main.25609d5f.js.map",
     "static/js/2.4676f5da.chunk.js": "/worst-buggy-website/static/js/2.4676f5da.chunk.js",
     "static/js/2.4676f5da.chunk.js.map": "/worst-buggy-website/static/js/2.4676f5da.chunk.js.map",
     "index.html": "/worst-buggy-website/index.html",
-    "precache-manifest.93792a454bc617486ec116fe3c9f3f8f.js": "/worst-buggy-website/precache-manifest.93792a454bc617486ec116fe3c9f3f8f.js",
+    "precache-manifest.ee26ac9f79fcb6d0ef8855b1233b3eac.js": "/worst-buggy-website/precache-manifest.ee26ac9f79fcb6d0ef8855b1233b3eac.js",
     "service-worker.js": "/worst-buggy-website/service-worker.js",
     "static/css/main.0436f2da.chunk.css.map": "/worst-buggy-website/static/css/main.0436f2da.chunk.css.map",
     "static/js/2.4676f5da.chunk.js.LICENSE": "/worst-buggy-website/static/js/2.4676f5da.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.25609d5f.js",
     "static/js/2.4676f5da.chunk.js",
     "static/css/main.0436f2da.chunk.css",
-    "static/js/main.fc5a3476.chunk.js"
+    "static/js/main.711db456.chunk.js"
   ]
 }
