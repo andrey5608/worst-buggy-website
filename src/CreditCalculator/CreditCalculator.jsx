@@ -40,7 +40,6 @@ export class CreditCalculator extends React.Component {
     this.setState({
       inputMonthsValue: months
     });
-    console.log(`months: ${this.state.inputMonthsValue}`);
   }
 
   updateLoanInputValue() {
@@ -48,11 +47,9 @@ export class CreditCalculator extends React.Component {
     this.setState({
       inputLoanValue: loanValue
     });
-    console.log(`loan: ${this.state.inputLoanValue}`);
   }
 
   componentDidMount(){
-    console.log(`${this.state.inputLoanValue}, ${this.state.inputMonthsValue}`);
   }
 
   componentWillUnmount(){

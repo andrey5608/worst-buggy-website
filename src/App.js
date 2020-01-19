@@ -6,7 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import { Menu, Button, MenuItem } from "@material-ui/core";
 
@@ -36,17 +37,20 @@ function App() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}><Link to="/">Home</Link></MenuItem>
-              <Link to="/calculator"><MenuItem onClick={handleClose}>Credit calculator</MenuItem></Link>
+              <MenuItem onClick={handleClose}><Link to={process.env.PUBLIC_URL + "/home"}>Home</Link></MenuItem>
+              <Link to={process.env.PUBLIC_URL + "/calculator"}><MenuItem onClick={handleClose}>Credit calculator</MenuItem></Link>
             </Menu>
           </div>
           <div>
             <Switch>
-              <Route exact path="/">
+              <Route path={process.env.PUBLIC_URL + "/home"}>
                 <Homepage />
               </Route>
-              <Route path="/calculator">
+              <Route path={process.env.PUBLIC_URL + "/calculator"}>
                 <CreditCalculator />
+              </Route>
+              <Route path="/">
+                <Redirect to={process.env.PUBLIC_URL + "/home"} />
               </Route>
             </Switch>
           </div>
