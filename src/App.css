@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+#routerMenu{
+  text-align: left;
+    font-size: larger;
+    text-decoration-color: black;
+}
+
+.menuLinks:visited {
+  color:black;
+  text-decoration-color: black;
+}
+
+#menuButton{
+  background-color: #112f6b54;;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: x-large;
+}

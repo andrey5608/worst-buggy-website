@@ -9,10 +9,12 @@ import './CalculatorSlider.css'
 const useStyles = makeStyles({
   root: {
     width: 300,
+    margin: "auto"
   },
   input: {
-    width: 42,
+    width: 42
   },
+  
 });
 
 export default function InputSlider(props) {
